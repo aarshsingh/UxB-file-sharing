@@ -48,7 +48,7 @@ IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n ɪ ᴀᴍ ᴍᴜʟᴛɪ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ , ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ » @ultroidofficial</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n 𝗧𝗛𝗔𝗡𝗞𝗦 𝗙𝗢𝗥 𝗨𝗦𝗜𝗡𝗚 𝗢𝗨𝗥 𝗕𝗢𝗧, 𝗬𝗢𝗨 𝗖𝗔𝗡 𝗪𝗔𝗧𝗖𝗛 𝗧𝗘𝗥𝗔𝗕𝗢𝗫 𝗔𝗡𝗗 𝗩𝗜𝗥𝗔𝗟 𝗩𝗜𝗗𝗘𝗢𝗦 𝗛𝗘𝗥𝗘, 𝗕𝗘𝗙𝗢𝗥𝗘 𝗧𝗛𝗔𝗧 𝗠𝗨𝗦𝗧 𝗝𝗢𝗜𝗡 >> @𝗔𝗟𝗟𝗩𝗜𝗗𝗦𝗕𝗔𝗖𝗞𝗨𝗣</b>")
 try:
     ADMINS=[6695586027]
     for x in (os.environ.get("ADMINS", "6695586027").split()):
