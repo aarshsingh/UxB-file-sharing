@@ -43,7 +43,11 @@ async def start_command(client: Client, message: Message):
         # Owner-specific actions
         # You can add any additional actions specific to the owner here
         await message.reply("You are the owner! Additional actions can be added here.")
+await asyncio.sleep(1)
+        await message.delete()
+        await message.reply_sticker("AAMCBQADGQEAARrHAma3XLJixBX-L_t5ZDcF26wbIpA2AALzEAACjbeBVc7x0ZylPg98AQAHbQADNQQ")
 
+    await reply_msg.delete()
     else:
         if not await present_user(id):
             try:
