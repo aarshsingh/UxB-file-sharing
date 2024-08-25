@@ -32,9 +32,9 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://aarshhub:6L1PAPikOnAIHIRA
 DB_NAME = os.environ.get("DATABASE_NAME", "TeraDatabase")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002108419450"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001982072622"))
-FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1001976541518"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002182479532"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002156988482"))
+FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -45,7 +45,7 @@ SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "instantearn.in")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "e753b45153becd850d3142dbdfce442891a7b1d0")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 43200)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","@allvidsbackup/2")
+TUT_VID = os.environ.get("TUT_VID","@allvidsbackup/8")
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n 𝗧𝗛𝗔𝗡𝗞𝗦 𝗙𝗢𝗥 𝗨𝗦𝗜𝗡𝗚 𝗢𝗨𝗥 𝗕𝗢𝗧, 𝗬𝗢𝗨 𝗖𝗔𝗡 𝗪𝗔𝗧𝗖𝗛 𝗧𝗘𝗥𝗔𝗕𝗢𝗫 𝗔𝗡𝗗 𝗩𝗜𝗥𝗔𝗟 𝗩𝗜𝗗𝗘𝗢𝗦 𝗛𝗘𝗥𝗘, 𝗕𝗘𝗙𝗢𝗥𝗘 𝗧𝗛𝗔𝗧 𝗠𝗨𝗦𝗧 𝗝𝗢𝗜𝗡 » @Allvidsbackup</b>")
